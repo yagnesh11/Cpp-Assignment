@@ -1,0 +1,27 @@
+What happens if the following program is executed in C and C++?
+
+#include<stdio.h> 
+
+int main() 
+
+{ 
+
+   foo();
+
+}  
+
+int foo() 
+
+{ 
+
+   printf("Hello"); 
+
+   return 0;  
+
+}
+
+Ans :- : 
+In C++ all the functions should be declared before
+
+ it is called otherwise the C++ compiler will give an error 
+ but in case of C the compiler just gives a warning and the program can be executed.
